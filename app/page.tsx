@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <main className="p-10">
-      <button className="btn btn-primary">OK</button>
-    </main>
-  )
+import { redirect } from "next/navigation";
+
+export default function Page() {
+  redirect("/home");
 }
